@@ -1,0 +1,351 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@import url("reset.css");
+.bacc {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 999999999999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    background: #49a6e2;
+    color: #fff;
+}
+
+.logo_animation {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+p {
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #666;
+}
+
+a {
+    color: #666;
+    font-size: 16px;
+    transition: all 0.4s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus,
+a:visited {
+    outline: none;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap
+}
+
+.column {
+    flex-direction: column;
+}
+
+.right_icons {
+    position: fixed;
+    right: 0px;
+    display: grid;
+    top: 30%;
+    z-index: 999;
+}
+
+.width1200 {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline-block;
+    background: url(../img/logo.svg) left center no-repeat;
+    padding-left: 70px;
+    font-size: 25px;
+    color: #444;
+    height: 55px;
+    line-height: 55px;
+    margin-top: 8px;
+}
+
+nav {
+    height: 75px;
+    width: 100%;
+    background-color: #fff;
+}
+
+
+/* 關於我們 */
+
+.main {
+    background-color: #49C4E3;
+    width: 100%;
+    height: 457px;
+}
+
+.about {
+    margin: 105px auto;
+    display: flex;
+}
+
+.main .title {
+    width: 505px;
+    display: inline-flex;
+}
+
+.about_img {
+    width: 556px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p.company1 {
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+p.company1 span {
+    color: #49a6e2;
+    text-decoration: underline;
+}
+
+p.company2 {
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 42px;
+}
+
+p.company3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.company3_b .company3,
+.company3_b a {
+    margin-right: 5px;
+}
+
+
+/* 除蟲服務 */
+
+.service {
+    background-color: #F2F2F2;
+    position: relative;
+}
+
+.our_service_img {
+    width: 643px;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+.service .title {
+    padding-left: 700px;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.service .title a {
+    margin: 0 5px;
+}
+
+.service .title .ser1 a:nth-child(1) {
+    margin-left: -15px;
+}
+
+.service .title .ser1 a:nth-child(2) {
+    margin-left: -20px;
+}
+
+
+/* 拍賣專區 */
+
+.sale_store {
+    position: relative;
+}
+
+.sale_store_img {
+    width: 643px;
+    margin-top: 137px;
+}
+
+.sale_store .title {
+    display: inline-flex;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.sale_store h2 {
+    margin-bottom: 10px;
+}
+
+.sale_store .title a {
+    margin: 5px;
+}
+
+
+/* 證照專區 */
+
+.license {
+    position: relative;
+    background-color: #6D79F8;
+}
+
+.license_img {
+    width: 500px;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+.license .title {
+    margin: 100px 0;
+    padding-left: 500px;
+}
+
+.license .title h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.license .title a {
+    color: #fff;
+    font-size: 20px;
+    border: #fff 1px solid;
+    width: 288px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin: 10px 16px;
+}
+
+.license .title a:hover {
+    background-color: #fff;
+    color: #6D79F8;
+}
+
+
+/* 步驟 */
+
+.work {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.work h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.work .title {
+    margin: 100px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.work .flex img {
+    margin: 0 10px;
+    width: calc(100% / 6 - 20px);
+}
+
+.work .flex {
+    display: inline-flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+
+/* 步驟 */
+
+.step {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.step .width1200 {
+    justify-content: center;
+}
+
+.step h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.step .title {
+    margin: 100px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.step .flex img {
+    margin: 0 50px;
+}
+
+.step .flex {
+    display: inline-flex;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    background-color: #E9E9E9;
+    color: #707070;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+/* End Responsive Menu */
+
+.fancybox-slide>* {
+    background-color: transparent;
+}
+
+.website img {
+    max-width: 90%;
+    max-height: 90vh;
+}
+
+.pc {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}

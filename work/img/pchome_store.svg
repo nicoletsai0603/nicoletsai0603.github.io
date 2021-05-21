@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="109" height="111" viewBox="0 0 109 111">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.958" y1="0.664" x2="0" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#03a5e5"/>
+      <stop offset="0.598" stop-color="#03a5e5"/>
+      <stop offset="0.653" stop-color="#0172bd"/>
+      <stop offset="1" stop-color="#0172bd"/>
+    </linearGradient>
+  </defs>
+  <g id="pchome_store" transform="translate(0 0.073)">
+    <ellipse id="椭圆_6" data-name="椭圆 6" cx="54.5" cy="55.5" rx="54.5" ry="55.5" transform="translate(0 -0.073)" fill="url(#linear-gradient)"/>
+    <g id="组_7" data-name="组 7" transform="translate(5.439 38.073)">
+      <g id="组_8" data-name="组 8" transform="translate(0 0)">
+        <g id="PChome" transform="translate(0 0)" style="isolation: isolate">
+          <text id="PChome-2" data-name="PChome" transform="translate(-0.439 28.854)" fill="#fff" font-size="27" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic" letter-spacing="-0.051em" style="isolation: isolate"><tspan x="0" y="0">PChome</tspan></text>
+        </g>
+        <text id="ONLINE" transform="translate(63.405 9.398)" fill="#fff" font-size="6" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic" letter-spacing="0.2em" style="isolation: isolate"><tspan x="0" y="0">ONLINE</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

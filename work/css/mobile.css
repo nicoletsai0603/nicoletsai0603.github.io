@@ -1,0 +1,138 @@
+@media screen and (max-width: 1200px) {
+    h2 {
+        font-size: 35px;
+        ;
+    }
+    .main img {
+        width: 100%;
+    }
+    .main {
+        height: auto;
+    }
+    .width1200 {
+        max-width: 90%;
+        margin: auto;
+    }
+    .about .title,
+    .service .title {
+        width: 50%;
+    }
+    .service .title {
+        padding-left: 50%;
+    }
+    .about_img,
+    .our_service_img {
+        width: 50%;
+        position: relative;
+    }
+    .license_img {
+        position: relative;
+        left: auto;
+    }
+    .license .width1200 {
+        display: flex;
+        flex-direction: column;
+    }
+    .license .title {
+        padding-left: 0;
+        margin-top: 30PX;
+    }
+    .license_img {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+    .license .title .flex {
+        justify-content: center;
+        align-items: center;
+    }
+    .work .flex {
+        flex-wrap: wrap;
+    }
+    .work .flex img {
+        width: calc(100% / 3 - 20px);
+        margin-top: 10PX;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    nav {
+        height: 60px;
+    }
+    .work .flex img {
+        width: calc(100% / 2 - 20px);
+    }
+    .logo {
+        height: 45px;
+        line-height: 45px;
+        background-size: contain;
+        padding-left: 50px;
+        font-size: 20px;
+    }
+    .pc {
+        display: none;
+    }
+    .mobile {
+        display: block;
+        border: #49C4E3 1px solid;
+    }
+    .main .width1200 {
+        max-width: 100%;
+    }
+    .width1200 {
+        display: block;
+    }
+    .service .width1200 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .about .title,
+    .service .title {
+        width: 100%;
+    }
+    .sale_store .width1200 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sale_store_img,
+    .license_img {
+        width: 80%;
+        margin-top: 40px;
+    }
+    .about .title {
+        margin: 40px 0;
+    }
+    .service .title {
+        padding-left: 0;
+        margin-bottom: 40px;
+    }
+    .service .company1 {
+        margin-bottom: 20px;
+    }
+    .service .flex {
+        align-items: center;
+        justify-content: center;
+    }
+    .about_img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .our_service_img {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .sale_store .title {
+        margin: 30px 0;
+    }
+    .step .title {
+        margin-top: 0px;
+    }
+    .step h2 {
+        margin-bottom: 0x;
+    }
+    .step .flex img {
+        margin: 40px 0;
+        max-width: 50%;
+    }
+}
